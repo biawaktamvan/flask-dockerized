@@ -1,4 +1,4 @@
-FROM jfloff/alpine-python:2.7-slim
+FROM python:2.7-alpine
 MAINTAINER Rezha Julio "contact@rezhajulio.id"
 COPY . /app
 WORKDIR /app
